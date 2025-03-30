@@ -30,7 +30,7 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20231117061959-7cc037d33fb5
 	github.com/evanphx/json-patch/v5 v5.9.0
 	github.com/go-jose/go-jose/v3 v3.0.4
-	github.com/go-logr/logr v1.4.1
+	github.com/go-logr/logr v1.4.2
 	github.com/go-logr/zapr v1.3.0
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
 	github.com/google/go-cmp v0.6.0
@@ -81,12 +81,12 @@ require (
 	k8s.io/cli-runtime v0.29.3
 	k8s.io/client-go v0.29.3
 	k8s.io/component-base v0.29.3
-	k8s.io/klog/v2 v2.120.1
+	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-aggregator v0.29.3
 	k8s.io/kube-scheduler v0.29.3
 	k8s.io/kubectl v0.29.3
 	k8s.io/pod-security-admission v0.29.3
-	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0
+	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 	kubevirt.io/api v1.1.1
 	kubevirt.io/containerized-data-importer-api v1.58.1
 	sigs.k8s.io/cluster-api v1.7.1
@@ -95,7 +95,7 @@ require (
 	sigs.k8s.io/cluster-api-provider-ibmcloud v0.7.0
 	sigs.k8s.io/cluster-api-provider-kubevirt v0.1.8
 	sigs.k8s.io/controller-runtime v0.17.3
-	sigs.k8s.io/structured-merge-diff/v4 v4.4.1
+	sigs.k8s.io/structured-merge-diff/v4 v4.6.0
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -156,7 +156,7 @@ require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/cel-go v0.20.1 // indirect
-	github.com/google/gnostic-models v0.6.8 // indirect
+	github.com/google/gnostic-models v0.6.9 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
@@ -223,7 +223,7 @@ require (
 	go.starlark.net v0.0.0-20231101134539-556fd59b42f6 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/exp v0.0.0-20240409090435-93d18d7e34b8 // indirect
-	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/oauth2 v0.20.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/term v0.28.0 // indirect
@@ -232,14 +232,14 @@ require (
 	google.golang.org/genproto v0.0.0-20240401170217-c3f982113cda // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
-	google.golang.org/protobuf v1.34.1 // indirect
+	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/evanphx/json-patch.v5 v5.7.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/kms v0.29.3 // indirect
-	k8s.io/kube-openapi v0.0.0-20240411171206-dc4e619f62f3 // indirect
+	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	k8s.io/kubelet v0.28.4 // indirect
 	kubevirt.io/controller-lifecycle-operator-sdk/api v0.0.0-20220329064328-f3cc58c6ed90 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.2 // indirect
@@ -247,6 +247,7 @@ require (
 	sigs.k8s.io/kube-storage-version-migrator v0.0.6-0.20230721195810-5c8923c5ff96 // indirect
 	sigs.k8s.io/kustomize/api v0.15.0 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.15.0 // indirect
+	sigs.k8s.io/randfill v1.0.0 // indirect
 )
 
 replace (
